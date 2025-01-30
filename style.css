@@ -1,0 +1,1057 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+:root {
+    --beige-primary: #d19d51;
+    --black-primary: #000000;
+    --white-primary: #feffff;
+    --yellow-primary: #fef536;
+    --red-primary: #ff0000;
+    --green-primary: #41ed3b;
+    --brown-primary: #91471d;
+    --gray-primary: #f2f1eb;
+
+    --green-secondary: #2bb826;
+
+    --bege-gradiente: radial-gradient(circle, #e6bb7f, #22161d);
+    --green-gradient: radial-gradient(circle, #41ed3b, #2bb826);
+
+    --background: -o-linear-gradient( #e6bb7f, #22161d);
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #000000;
+    color: var(--white-primary);
+    font-family: 'Poppins', sans-serif;
+}
+header img {
+    position: absolute;
+    width: 100%;
+}
+header h1 {
+    color: var(--beige-primary);
+    font-size: 147px;
+}
+ 
+header p, header h2 {
+    color: var(--white-primary);
+}
+header h2 {
+    font-size: 50px;
+}
+header p {
+    font-size: 30px;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./assets/images/STARS.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150vh;
+    gap: 3rem;
+}
+.header-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: -250px;
+    
+}
+header span {
+    background-color: var(--beige-primary);
+    color: var(--white-primary);
+    padding: 5px;
+    width: 50%;
+    text-align: center;
+    font-size: 30px;
+}
+.hero-banner {
+   display: flex;
+    width: 100%;
+    justify-content: center;
+
+}
+.hero-banner img {
+    width: 70%;
+    margin-top: -100px;
+}
+.hero-text-img {
+    margin: 0 auto;
+    width: 400px;
+}
+.hero-text-img img {
+    width: 400px;
+}
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    gap: 1.8rem;
+    justify-content: center;
+   color: var(--white-primary);
+   font-size: 40px;
+   text-align: center;
+}
+
+.hero-text p {
+    padding: 40px;
+    font-family: 'Niramit',sans-serif ;
+}
+.hero-text img {
+    display: flex;
+    width: 100%;
+}
+.hero-picture {
+    background-color: var(--white-primary);
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    
+}
+.hero-picture img {
+    width: 290px;
+}
+
+.proposta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:baseline;
+    gap: 1.8rem;
+    font-size: 29.7px;
+    padding: 40px;
+    width: 100%;
+}
+.proposta li {
+    font-weight: 700;
+    width: 70%;
+    
+}
+.proposta p:last-child {
+    width: 70%;
+    margin-top: 0px;
+}
+.proposta-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    width: 100%;
+}
+.proposta-text p, .proposta-text li {
+    margin: 0 auto;
+}
+.bonus span {
+    border: 1px solid #00ff00; /* Verde brilhante */
+    border-radius: 10px;
+    padding: 15px;
+    font-family: 'Antonio', sans-serif;
+    font-weight: 700;
+    width: 300px;
+    align-items: center;
+    text-align: center;
+    color: white;
+    
+    /* Efeito de brilho */
+    box-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00, 0 0 30px #00ff00;
+    
+    /* Para animação contínua de brilho */
+    animation: glow 1.5s infinite alternate;
+}
+
+@keyframes glow {
+    from {
+        box-shadow: 0 0 5px #00ff00, 0 0 10px #00ff00;
+    }
+    to {
+        box-shadow: 0 0 15px #00ff00, 0 0 25px #00ff00;
+    }
+}
+
+.bonus {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.aprender {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    gap: 2rem;
+}
+.aprender h2 {
+    font-family: 'Antonio', sans-serif;
+    font-size: 83.6px;
+    margin: 10px auto;
+    
+}
+.aprender ul {
+    text-align: justify;
+    font-size: 35px;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 2rem;
+    
+}
+.aprender ul li {
+    font-weight: 200;
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+.aprender ul li img {
+    width: 50px;
+}
+
+.foryou-title {
+    background: var(--bege-gradiente);
+    text-align: center;
+    padding: 40px;
+    font-size: 45.6px;
+    font-family: 'Antonio', sans-serif;
+    text-shadow: 10px 10px 10px black;
+    
+}
+.foryou-boxes {
+    display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 5rem;
+  padding: 10px;
+  width: 100%; /* Defina uma largura para centralizar */
+  justify-content: center;
+  align-items: center;
+}
+.gray-box {
+    background-color: var(--gray-primary);
+    box-shadow: 5px 5px 5px pink;
+}
+
+.foryou-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    width: 400px;
+    height: 500px;
+    background-color: var(--gray-primary);
+    box-shadow: 5px 5px 5px pink;
+}
+.foryou-box img {
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+    margin: 20px;
+    box-shadow: 10px 10px 10px pink;
+}
+.foryou-box P {
+    color: #000000;
+    font-size: 34.7px;
+    text-align: center;
+}
+#vinte-nove-px {
+    font-size: 25px;
+}
+#vinte-tres-px {
+    font-size: 23px;
+}
+.foryou-who {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+}
+.foryou-who h2 {
+    font-family: 'Antonio', sans-serif;
+    font-size: 72.2px;
+    width: 50%;
+    text-align: center;
+    margin: 10px auto;
+}
+.foryou-who h2 span {
+    color: var(--beige-primary);
+}
+.forwho-box {
+    background-color: var(--beige-primary);
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 800px;
+    font-size: 42px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+.forwho-box span {
+    color: black;
+}
+.testimonials {
+    background-color: var(--beige-primary);
+    color: var(--black-primary);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+.testimonials h2 {
+    font-family: 'Antonio', sans-serif;
+    font-size: 92px;
+    text-align: center;
+}
+.testimonials p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 41.2px;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto; 
+}
+
+
+.bonus-content {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10rem;
+}
+.bonus-content h2 {
+    font-size: 73px;
+    width: 50%;
+    margin: 15px auto;
+    font-family: 'Antonio', sans-serif;
+}
+
+.bonus-whitebox-pai {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin: auto;
+    width: 300px;
+}
+
+.bonus-whitebox-pai img {
+    width: 120px; /* Ajuste conforme necessário */
+    position: absolute;
+    top: -100px; /* Move a imagem para cima */
+    transform: rotate(55deg);
+    transition: transform 0.3s ease-in-out;
+    z-index: 99;
+
+}
+#certificado {
+    margin-top: 25px ;
+    border: 12px solid white;
+    transform: rotate(-5deg);
+    width: 92%;
+    border-radius: 10px;
+}
+#templates {
+    width: 80%;
+    transform: rotate(-15deg);
+    bottom: 35px;
+}
+#celular {
+    width: 90%;
+}
+
+.bonus-whitebox-pai img:hover {
+    transform: rotate(0deg);
+}
+
+.bonus-whitebox {
+    text-align: center;
+    border-radius: 10px;
+    background: #fff;
+    width: 100%;
+    height: 50vh;
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    position: relative;
+    z-index: 1; /* Garante que a div fique atrás da imagem */
+}
+
+.bonus-price {
+    margin-top: 120px;
+}
+
+.bonus-whitebox h3 {
+    font-size: 18px;
+    color: #c49b83;
+    margin: 5px 0;
+}
+
+.bonus-whitebox p {
+    font-size: 16px;
+    text-decoration: line-through;
+    color: #a1a1a1;
+    margin: 0;
+}
+
+.bonus-whitebox span {
+    display: inline-block;
+    background: #c5e1a5;
+    color: #000;
+    padding: 5px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+.bonus-text {
+    font-size: 56.1px;
+    font-family: 'Poppins', sans-serif;
+    width: 65%;
+    margin: 0 auto;
+}
+.bonus-text span {
+    color:var(--beige-primary);
+    font-weight: 700;
+
+}
+.proposta-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.proposta-2 h2 {
+    font-size: 69.1px;
+    font-family: 'Antonio', sans-serif;
+    background: var(--bege-gradiente);
+    text-align: center;
+    padding: 30px;
+    align-items: center;
+    text-shadow: 10px 10px 10px black;
+}
+.proposta-2 p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 37px;
+    width: 70%;
+    margin: 0 auto;
+}
+.proposta-2 span {
+    font-size: 52.4px;
+    color: var(--yellow-primary);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    width: 70%;
+    margin: 0 auto;
+}
+.ofertas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 3rem;
+}
+.ofertas-title {
+    background-color: var(--beige-primary);
+    border-radius: 10px;
+    width: 1000px;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+}
+.ofertas h2 {
+    font-size: 111px;
+    font-family: 'Antonio', sans-serif;
+}
+
+.ofertas-banner {
+    background-color: yellow;
+    padding: 15px;
+    text-align: center;
+    font-family: 'Oswald', serif;
+    font-weight: bold;
+    border-radius: 20px;
+    position: relative;
+    display: inline-block;
+    margin-top: 100px;
+
+}
+
+.ofertas-banner .topo {
+    color: #ff0000;
+    font-size: 92px;
+}
+
+.ofertas-banner .estrela {
+    font-size: 92px;
+    color: #000000;
+}
+
+.ofertas-banner .descricao {
+    font-size: 41.9px;
+    color: black;
+    margin-top: 5px;
+    font-family: 'Oswald', serif;
+    font-weight: 400;
+}
+
+.ofertas-banner .etiqueta {
+    position: absolute;
+    top: 50px;
+    right: -28px;
+    background-color: var(--green-secondary);
+    color: white;
+    font-size: 22px;
+    padding: 5px 10px;
+    transform: rotate(40deg);
+    border-radius: 5px;
+    width: 200px;
+}
+
+.ofertas-banner .rodape {
+    background-color: var(--green-primary);
+    color: black;
+    font-size: 52px;
+    padding: 8px;
+    margin-top: 10px;
+    border-radius: 5px;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.ofertas-box {
+    background: var(--white-primary);
+    width: 95%;
+    border-radius: 0 0 50px 50px;
+}
+.ofertas-img {
+    padding: 60px;
+}
+.ofertas-ofertas {
+    color: var(--black-primary);
+    font-size: 32.4px;
+    font-family: 'Oswald', serif;
+    text-align: justify;
+    padding: 60px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.ofertas-price {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.ofertas-price h3 {
+    color: var(--red-primary);
+    font-family: 'Oswald', serif;
+    font-size: 62px;
+}
+.ofertas-price h3 strong {
+    color: #000000;
+    text-decoration: underline;
+}
+.ofertas-price span {
+    color: var(--green-primary);
+    font-family: 'Antonio', sans-serif;
+    font-size: 180px;
+    margin: 20px;
+    font-weight: 700;
+}
+.ofertas-pricebox {
+    background: var(--green-gradient);
+    width: 50%;
+    font-size: 53.9px;
+    font-family: 'Oswald', serif;
+    border-radius: 20px;
+    text-decoration: underline;
+    color: white;
+}
+.ofertas-price p {
+    color: #000000;
+    font-family: 'Oswald', serif;
+    font-size: 41.7px;
+    width: 53%;
+}
+
+.ofertas-plano-basico {
+    background: var(--white-primary);
+    width: 95%;
+    border-radius: 50px;
+}
+.ofertas-plano-basico h2 {
+    background: var(--beige-primary);
+    color: var(--black-primary);
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 50px;
+    font-family: 'Oswald', sans-serif;
+}
+.ofertas-plano-basico p {
+    color: #414042;
+    font-size: 55px;
+    margin-top: 50px;
+}
+.ofertas-plano-basico div {
+    font-size: 180px;
+    color: var(--brown-primary);
+    font-family: 'Antonio', sans-serif;
+    font-weight: 700;
+}
+.planocta {
+    background: var(--brown-primary);
+    padding: 40px;
+    font-size: 63px;
+    font-family: 'Oswald', serif;
+    text-decoration: underline;
+    color: white;
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+.duvidas {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+.duvidas ul {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    text-align: justify;
+    list-style: decimal;
+    color: var(--yellow-primary);
+    font-size: 32px;
+    font-weight: 600;
+}
+.duvidas ul span {
+    color: var(--white-primary);
+    font-weight: 300;
+    
+}
+.duvidas p {
+    font-size: 45px;
+    font-family: 'Antonio', sans-serif;
+}
+.duvidas a img {
+    
+    width: 120px;
+    margin-bottom: 50px;
+}
+@keyframes zoom-infinite {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  .zoom {
+    animation: zoom-infinite 3s infinite ease-in-out;
+  }
+
+
+  .sobre-container {
+    display: flex;
+    align-items: center;
+    background: black;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid purple;
+    width: 600px;
+    margin-top: 100px;
+}
+.badge {
+    background: gold;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    box-shadow: 0px 0px 10px rgba(255, 215, 0, 0.8);
+}
+.ribbon {
+    background: gold;
+    color: black;
+    font-size: 14px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: -10px;
+}
+.text-content {
+    margin-left: 20px;
+}
+.stars {
+    color: gold;
+    font-size: 18px;
+}
+.sobre {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    background: var(--bege-gradiente);
+}
+.sobre h2 {
+    font-family: 'Antonio', sans-serif;
+    font-size: 48.2px;
+    color: #000000;
+}
+.sobre-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.sobre-img img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: -10px -10px 20px -10px #000;
+    
+}
+.sobre-text {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 60%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 23.6px;
+    margin-bottom: 100px;
+}
+
+footer {
+    font-family: 'Oswald', serif;
+    font-size: 40.6px;
+    text-align: center;
+    padding: 40px;
+}
+
+@media screen and (max-width:450px){
+    body {
+        max-width: 450px;
+        width: 450px;
+    }
+    main {
+        max-width: 450px;
+        width: 100%;
+    }
+    header {
+        max-width: 450px;
+        width: 100%;
+        background-image: url(./assets/images/MÉTODO\ MULHER\ VISIONÁRIA-STARS.svg);
+        background-repeat: no-repeat;
+        background-size:  100%;
+    }
+    .header-container {
+        max-width: 450px;
+        width: 450px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .header-container h1 {
+        max-width: 450px;
+        width: 100%;
+        font-size: 4.5rem;
+        margin-top: 100px;
+    }
+    .header-container h2 {
+        font-size: 2.8rem;
+        
+    }
+    .header-container p {
+        font-size: 1.2rem;
+        margin: 0 20px;
+        
+    }
+    .header-container span {
+        width: 85%;
+        font-size: 1.2rem;
+    }
+    .hero-banner img {
+        max-width: 375px;
+        width: 100%;
+        margin-top: -250px;
+    }
+    .hero-text {
+        max-width: 450px;
+        width: 100%;
+        font-size: 2rem;
+    }
+    .proposta {
+        max-width: 450px;
+        width: 100%;
+    }
+    .proposta-text {
+        max-width: 450px;
+        width: 100%;
+        
+    }
+    #pt {
+        width: 100%;
+    }
+    .proposta-text li {
+        width: 100%;
+    }
+    .bonus {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .aprender ul {
+        max-width: 450px;
+        width: 100%;
+        font-size: 20px;
+        margin: 0;
+        padding: 0;
+    }
+    .foryou {
+        max-width: 450px;
+        width: 100%;
+    }
+    .foryou-title h2 {
+        font-size: 2.08rem;
+    }
+    .foryou-boxes {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .foryou-box {
+        max-width: 390px;
+        width: 100%;
+    }
+    .foryou-who {
+        max-width: 450px;
+        width: 100%;
+    }
+    .foryou-who h2 {
+        width: 100%;
+        font-size: 3rem;
+    }
+    .forwho-box {
+        max-width: 400px;
+        width: 100%;
+        font-size: 1.3rem;
+        padding: 20px;
+
+    }
+    .forwho-box p {
+        width: 100%;
+        text-align: left;
+        margin: 0;
+        padding: 0;
+    }
+    .forwho-title h2 {
+        width: 100%;
+        font-size: 2rem;
+    }
+    .forwho-title {
+        max-width: 450px;
+        width: 100%;
+    }
+    .testimonials {
+        max-width: 450px;
+        width: 100%;
+
+    }
+    .testimonials h2 {
+        font-size: 2.2rem;
+    }
+    .testimonials p {
+        width: 100%;
+        font-size: 1.6rem;
+    }
+    .testimonials img {
+        max-width: 450px;
+        width: 100%;
+    }
+    .bonus-content {
+        max-width: 450px;
+        width: 100%;
+    }
+    .bonus-content h2 {
+        width: 100%;
+        font-size: 3rem;
+    }
+    .bonus-text {
+        max-width: 450px;
+        width: 100%;
+        font-size: 1.5rem;
+    }
+    .proposta-2 {
+        max-width: 450px;
+        width: 100%;
+        
+    }
+    .proposta-2 h2 {
+        width: 100%;
+        font-size: 2.05rem;
+
+    }
+    .proposta-2 p {
+        width: 100%;
+        font-size: 1.3rem;
+        padding: 20px;
+    }
+    .proposta-2 span {
+        max-width: 450px;
+        width: 100%;
+        font-size: 1.5rem;
+        padding: 20px;
+    }
+    .ofertas {
+        max-width: 450px;
+        width: 100%;
+
+    }
+    .ofertas-title {
+        max-width: 400px;
+        
+    }
+    .ofertas-title h2 {
+        font-size: 2.5rem;
+    }
+    .ofertas-box {
+        max-width: 420px;
+        width: 100%;
+    }
+    .ofertas-banner {
+        max-width: 390px;
+    }.ofertas-banner .etiqueta {
+        width: 50%;
+    }
+    .ofertas-banner .topo {
+        font-size: 3rem;
+    }
+    .ofertas-banner .estrela {
+        font-size: 3rem;
+    }
+    .ofertas-banner .descricao {
+        font-size: 1rem;
+    }
+    .ofertas-banner .rodape {
+        width: 80%;
+        font-size: 2rem;
+    }
+    .ofertas-img {
+        max-width: 450px;
+        width: 100%;
+
+    }
+    .ofertas-img img {
+        max-width: 450px;
+        width: 100%;
+    }
+    .ofertas-ofertas {
+        width: 100%;
+        max-width: 450px;
+        padding: 20px;
+        font-size: 1.5rem;
+    }
+    .ofertas-price h3 {
+        max-width: 450px;
+        width: 100%;
+        font-size: 1.5rem;
+    }
+    .ofertas-pricebox {
+        
+        width: 80%;
+        font-size: 2rem;
+    }
+   .ofertas-price p {
+        width: 80%;
+        font-size: 1.5rem;
+   }
+   .ofertas-plano-basico {
+        max-width: 420px;
+        width: 100%;
+
+   }
+   .ofertas-plano-basico h2 {
+    width: 80%;
+    font-size: 3.5rem;
+   }
+   .planocta {
+        width: 100%;
+        font-size: 2.5rem;
+        margin-bottom: 30px;
+   }
+   .duvidas {
+    max-width: 450px;
+    width: 100%;
+   }
+   .duvidas h2 {
+    max-width: 450px;
+    width: 100%;
+    font-size: 3.3rem;
+   }
+   .duvidas ul li {
+    font-size: 1.3rem;
+   }
+   .sobre {
+    max-width: 450px;
+    width: 100%;
+   }
+   .sobre-container {
+    max-width: 400px;
+    width: 100%;
+   }
+   .sobre-text {
+    max-width: 450px;
+    width: 100%;
+    padding: 20px;
+    font-size: 1.13rem;
+   }
+   footer {
+    max-width: 450px;
+    width: 100%;
+    font-size: 1.3rem;
+    
+   }
+}
