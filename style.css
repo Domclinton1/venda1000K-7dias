@@ -779,20 +779,18 @@ footer {
     padding: 40px;
 }
 
-@media screen and (min-width:431px) and (max-width:600px){
+@media screen and (min-width:490px) and (max-width:600px){
     body {
         max-width: 600px;
-        min-width: 431px;
+        
         width: 100%;
     }
     main {
         max-width: 600px;
-        min-width: 431px;
         width: 100%;
     }
     header {
         max-width: 600px;
-        min-width: 431px;
         width: 100%;
         background-image: url(./assets/images/MÉTODO\ MULHER\ VISIONÁRIA-STARS.svg);
         background-repeat: no-repeat;
@@ -800,7 +798,6 @@ footer {
     }
     .header-container {
         max-width: 600px;
-        min-width: 431px;
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -809,7 +806,7 @@ footer {
     }
     .header-container h1 {
         max-width: 600px;
-        min-width: 431px;
+
         width: 100%;
         font-size: 4.5rem;
         margin-top: -150px;
@@ -833,26 +830,26 @@ footer {
     }
     .hero-banner img {
         max-width: 700px;
-        min-width: 431px;
+
         width: 100%;
         margin-top: -200px;
         
     }
     .hero-text {
         max-width: 600px;
-        min-width: 431px;
+
         width: 100%;
         font-size: 1.4rem;
     }
     .proposta {
         max-width: 600px;
-        min-width: 431px;
+
         width: 100%;
     }
     .proposta-text {
         max-width: 600px;
         width: 100%;
-        min-width: 431px;
+
         
     }
     #pt {
@@ -868,7 +865,7 @@ footer {
     }
     .aprender ul {
         max-width: 600px;
-        min-width: 431px;
+
         width: 100%;
         font-size: 20px;
         margin: 0;
@@ -876,7 +873,7 @@ footer {
     }
     .foryou {
         max-width: 600px;
-        min-width: 431px;
+
         width: 100%;
     }
     .foryou-title h2 {
@@ -896,7 +893,7 @@ footer {
     }
     .foryou-who {
         max-width: 600px;
-        min-width: 431px;
+
         width: 100%;
     }
     .foryou-who h2 {
@@ -926,7 +923,7 @@ footer {
     }
     .testimonials {
         max-width: 600px;
-        min-width: 431px;
+
         width: 100%;
 
     }
@@ -941,12 +938,12 @@ footer {
     }
     .testimonials img {
         max-width: 600px;
-        min-width: 431px;
+
         width: 100%;
     }
     .bonus-content {
         max-width: 600px;
-        min-width: 431px;
+
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -962,7 +959,7 @@ footer {
     }
     .bonus-text {
         max-width: 600px;
-        min-width: 431px;
+
         width: 100%;
         margin-top: -100px;
         margin-bottom: 30px;
@@ -976,7 +973,7 @@ footer {
     
     .proposta-2 {
         max-width: 600px;
-        min-width: 431px;
+
         display: flex;
         flex-direction: column;
         gap: 1rem;
@@ -1000,7 +997,7 @@ footer {
     }
     .proposta-2 span {
         max-width: 600px;
-        min-width: 431px;
+
         width: 100%;
         font-size: 1.5rem;
         padding: 20px;
@@ -1064,7 +1061,7 @@ footer {
     .ofertas-ofertas {
         width: 100%;
         max-width: 600px;
-        min-width: 431px;
+
         padding: 20px;
         font-size: 1.5rem;
     }
@@ -1084,7 +1081,7 @@ footer {
    }
    .ofertas-plano-basico {
         max-width: 95%;
-        min-width: 431px;
+
         align-items: center;
         width: 100%;
         gap: 1rem;
@@ -1115,7 +1112,6 @@ footer {
    
    .sobre {
     max-width: 600px;
-    min-width: 431px;
     display: flex;
     flex-direction: column;
     gap: 1rem;
@@ -1133,7 +1129,6 @@ footer {
    }
    .sobre-text {
     max-width: 600px;
-    min-width: 431px;
     width: 100%;
     padding: 20px;
     font-size: 1.13rem;
@@ -1141,27 +1136,26 @@ footer {
    }
    footer {
     max-width: 600px;
-    min-width: 431px;
     width: 100%;
     font-size: 1.3rem;
     
    }
 }
-@media screen and (max-width:430px){
+@media screen and (max-width:490px){
     body {
-        max-width: 430px;
+        max-width: 490px;
         width: 100%;
         
     }
     main {
-        max-width: 430px;
+        max-width: 490px;
         width: 100%;
         display: flex;
         flex-direction: column;
         gap: 1rem;
     }
     header {
-        max-width: 430px;
+        max-width: 490px;
         width: 100%;
         background-image: url(./assets/images/MÉTODO\ MULHER\ VISIONÁRIA-STARS.svg);
         background-repeat: no-repeat;
@@ -1170,7 +1164,7 @@ footer {
         
     }
     .header-container {
-        max-width: 430px;
+        max-width: 490px;
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -1180,7 +1174,7 @@ footer {
         margin-top: -55vh;    
     }
     .header-container h1 {
-        max-width: 430px;
+        max-width: 490px;
         width: 100%;
         font-size: 4.5rem;        
     }
@@ -1207,7 +1201,7 @@ footer {
     }
    
     .hero-text {
-        max-width: 430px;
+        max-width: 490px;
         width: 100%;
         font-size: 1.4rem;
         display: flex;
@@ -1218,11 +1212,11 @@ footer {
         max-width: 90%;
     }
     .proposta {
-        max-width: 430px;
+        max-width: 490px;
         width: 100%;
     }
     .proposta-text {
-        max-width: 430px;
+        max-width: 490px;
         width: 100%;
         
     }
@@ -1238,14 +1232,14 @@ footer {
         gap: 2rem;
     }
     .aprender ul {
-        max-width: 430px;
+        max-width: 490px;
         width: 100%;
         font-size: 20px;
         margin: 0;
         padding: 0;
     }
     .foryou {
-        max-width: 430px;
+        max-width: 490px;
         width: 100%;
     }
     .foryou-title h2 {
@@ -1262,7 +1256,7 @@ footer {
         width: 100%;
     }
     .foryou-who {
-        max-width: 430px;
+        max-width: 490px;
         width: 100%;
         margin-bottom: 20px;
     }
@@ -1287,11 +1281,11 @@ footer {
         font-size: 2rem;
     }
     .forwho-title {
-        max-width: 430px;
+        max-width: 490px;
         width: 100%;
     }
     .testimonials {
-        max-width: 430px;
+        max-width: 490px;
         width: 100%;
 
     }
@@ -1309,7 +1303,7 @@ footer {
         width: 100%;
     }
     .bonus-content {
-        max-width: 430px;
+        max-width: 490px;
         width: 100%;
     }
     .bonus-content h2 {
@@ -1317,7 +1311,7 @@ footer {
         font-size: 3rem;
     }
     .bonus-text {
-        max-width: 430px;
+        max-width: 490px;
         width: 100%;
         font-size: 1.2rem;
         margin-top: -100px;
@@ -1327,7 +1321,7 @@ footer {
         margin: 20px;
     }
     .proposta-2 {
-        max-width: 430px;
+        max-width: 490px;
         width: 100%;
         gap: 1rem;
         
@@ -1347,13 +1341,13 @@ footer {
         gap: 1rem;
     }
     .proposta-2 span {
-        max-width: 430px;
+        max-width: 490px;
         width: 100%;
         font-size: 1.5rem;
         padding: 20px;
     }
     .ofertas {
-        max-width: 430px;
+        max-width: 490px;
         width: 100%;
 
     }
@@ -1395,12 +1389,12 @@ footer {
         font-size: 2rem;
     }
     .ofertas-img {
-        max-width: 430px;
+        max-width: 490px;
         width: 100%;
 
     }
     .ofertas-img img {
-        max-width: 430px;
+        max-width: 490px;
         width: 100%;
     }
     .ofertas-ofertas {
@@ -1414,7 +1408,7 @@ footer {
         
     }
     .ofertas-price h3 {
-        max-width: 430px;
+        max-width: 490px;
         width: 100%;
         font-size: 1.5rem;
     }
@@ -1443,11 +1437,11 @@ footer {
         margin: 0 auto;
    }
    .duvidas {
-    max-width: 430px;
+    max-width: 490px;
     width: 100%;
    }
    .duvidas h2 {
-    max-width: 430px;
+    max-width: 490px;
     width: 100%;
     font-size: 3.3rem;
    }
@@ -1458,7 +1452,7 @@ footer {
     font-size: 1.3rem;
    }
    .sobre {
-    max-width: 430px;
+    max-width: 490px;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -1479,14 +1473,14 @@ footer {
     position: relative;
    }
    .sobre-text {
-    max-width: 430px;
+    max-width: 490px;
     width: 100%;
     padding: 0 20px;
     font-size: 1rem;
     gap: 1rem;
    }
    footer {
-    max-width: 430px;
+    max-width: 490px;
     width: 100%;
     font-size: 1.3rem;
     
