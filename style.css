@@ -1174,7 +1174,7 @@ footer {
         justify-content: center;
         text-align: center;
         gap: 1rem;    
-        margin-top: -45vh;    
+        margin-top: -55vh;    
     }
     .header-container h1 {
         max-width: 430px;
@@ -1198,8 +1198,8 @@ footer {
     
     .hero-banner img {
         max-width: 400px;
-        width: 100%;
-        margin-top: -260px;
+        width: 95%;
+        margin-top: -50vh;
         
     }
    
