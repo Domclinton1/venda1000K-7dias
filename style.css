@@ -53,6 +53,8 @@ header {
     justify-content: center;
     align-items: center;
     background-image: url(./assets/images/STARS.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 120vh;
     gap: 1rem;
 }
@@ -84,7 +86,7 @@ header span {
 }
 .hero-banner img {
     width: 80%;
-    margin-top: -180px;
+    margin-top: -90px;
     
 }
 .hero-text-img {
