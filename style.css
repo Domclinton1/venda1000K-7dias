@@ -86,7 +86,7 @@ header span {
 }
 .hero-banner img {
     width: 80%;
-    margin-top: -100px;
+    margin-top: -50px;
     
 }
 .hero-text-img {
@@ -129,7 +129,8 @@ header span {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items:baseline;
+    align-items: center;
+    text-align: justify;
     gap: 1.8rem;
     font-size: 29.7px;
     padding: 40px;
@@ -448,7 +449,7 @@ header span {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-aligin: center;
+    text-align: center;
     gap: 1.4rem;
     
 }
@@ -475,6 +476,7 @@ header span {
     font-weight: 700;
     width: 70%;
     margin: 0 auto;
+    text-align: center;
 }
 .ofertas {
     display: flex;
